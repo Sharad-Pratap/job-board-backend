@@ -17,3 +17,4 @@ app.use(cors<Request>());
 app.use('/api/auth', authRoutes);
 app.use('/api/jobs', jobRoutes);
 
+export default app;
